@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html lang="It">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Font Roboto -->
-        
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-       
-        <!-- CSS Custom -->
+    <!-- Font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="style.css"/>
 
-        <link rel="stylesheet" href="style.css"/>
+    <!-- Bootstrap e KnightLab Timeline CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
 
-        <!-- Bootstrap CSS -->
+    <!-- Bootstrap e KnightLab Timeline JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    
+    <!-- JS ShareThis-->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
+    
+    <!-- DublinCore -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+    <META name="DC.Title" content="Marvel Comics Catalogue"/>
+    <META name="DC.Creator" content="Gabriele Napoletano"/>
+    <META name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
+    <META name="DC.Publisher" content="Github Pages"/>
+    <META name="DC.Type" content="Catalogo web"/>
+    <META name="DC.Format" content="Sito web"/>
+    <META name="DC.Language" content="It"/>
 
-        <!-- Bootstrap JS -->
+    <!-- Sezione Title -->
+    <title> Marvel Comics </title>
 
-        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-
-        <!-- JS Social -->
-
-        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
-
-        <!-- Favicon -->
-
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-        <link rel="manifest" href="favicon/site.webmanifest">
-
-        <!-- DublinCore-->
-
-        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
-        <META name="DC.Title" content="Marvel Characters Catalogue"/>
-        <META name="DC.Creator" content="Gabriele Napoletano"/>
-        <META name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
-        <META name="DC.Publisher" content="Github Pages"/>
-        <META name="DC.Type" content="Catalogo web"/>
-        <META name="DC.Format" content="Sito web"/>
-        <META name="DC.Language" content="It"/>
-
-
-        <!-- Sezione Title -->
-
-        <title> Marvel </title>
-
-    </head>
+</head>
     <body>
         <!-- Testata del sito-->
         <header>
@@ -65,7 +56,7 @@
         <!-- Navigazione Principale -->
         <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Marvel Superheros</a>
+            <a class="navbar-brand" href="#"> Supereroi Marvel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -83,15 +74,11 @@
                     </a>
                     <ul class="dropdown-menu ">
                         <li><a class="dropdown-item" href="#">Fumettisti</a></li>
-                        <li><a class="dropdown-item" href="#">Produttori</a></li>
                         <li><a class="dropdown-item" href="#">Registi</a></li>
                     </ul>
                     </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Luoghi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Accedi</a>
                 </li>
                 </ul>
             </div>
@@ -179,31 +166,6 @@
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                    Produttori
-                                  </button>
-                                </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushFiltri">
-                                  <div class="accordion-body scrollbar">
-                                    <ul class="list-group">
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="firstCheckboxStretchedAnt">Kevin Feige</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretchedAnt">
-                                      </li>
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="secondCheckboxStretchedAnt">Amy Pascal</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretchedAnt">
-                                      </li>
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="thirdCheckboxStretchedAnt">Louis D'Esposito</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretchedAnt">
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                                     Registi
                                   </button>
@@ -232,8 +194,7 @@
                         </div>
                     </div>
                   </div>
-                      <div class="container-fluid ">
-                        <h3 class="txt-light txt-center">Cerca nel sito</h3>
+                      <div class="container-fluid mt-5">
                         <form class="d-flex rounded" role="search">
                           <input class="form-control mr-2" type="search" placeholder="Cerca" aria-label="Search">
                           <button class="btn bg-dark text-light" type="submit">Cerca</button>
@@ -253,7 +214,7 @@
                       <h5><strong>Iron Man</strong></h5>
                       <p><strong>Superpotere</strong> : Armatura tecnologica</p>
                       <p><strong>Anno</strong> : 1963</p>
-                      <a href="items/item-1.html" class="btn btn-dark">Scopri il personaggio</a>
+                      <a href="ironman.html" class="btn btn-dark">Scopri il personaggio</a>
                       </div>
                     </div>
                     </div>

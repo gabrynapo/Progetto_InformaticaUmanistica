@@ -1,18 +1,15 @@
-/* body */
-
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Comics Sans MS';
 }
 
 /* Logo resizie */
-
 .logo-resize {
     height: 8%;
     width: 8%;
 }
 
 :first-of-type(div) {
-   width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -24,11 +21,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* background */
-.bg-dark-red {
-    background-color: #e80000;
 }
 
 span.carousel-control-next-icon {
@@ -55,15 +47,6 @@ span.carousel-control-prev-icon {
     font-size: 14px;
 }
 
-/* color */
-.txt-dark {
-    color: #000000 !important;
-}
-
-.txt-light {
-    color: #ffffff;
-}
-
 /* a */
 a {
     text-decoration: none !important;
@@ -84,11 +67,6 @@ a:hover{
     text-align: center;
 }
 
-/* Classe per creare una scrollbar */
-.scrollbar {
-        max-height: 390px;
-        overflow-y: scroll;
-    }
 
 /* ul */
 
@@ -96,35 +74,6 @@ a:hover{
     list-style: none;
     padding-left: 0px;
 }
-
-/* padding */
-
-.padding-descrizione {
-    padding-top: 20%;
-}
-
-.padding-leggero-top {
-    padding-top: 2%;
-}
-
-/* margin */
-
-.margin-leggero-left {
-    margin-left: 2%;
-}
-
-/* vertical line */
-
-.vl {
-    border-left: 6px solid #000000 ;
-    height: 100%;
-    left: 50%;
-    margin-left: -3px;
-    margin-bottom: 10%;
-    position: relative;
-  }
-
-/* hidden */
 
 .hide {
     display: none;
