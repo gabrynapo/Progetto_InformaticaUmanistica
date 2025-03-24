@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="It">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Font Roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+       
+        <!-- CSS Custom -->
+        <link rel="stylesheet" href="style.css"/>
+
+        <!-- Bootstrap e KnightLab Timeline CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+        <!-- Bootstrap e KnightLab Timeline JS -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        
+        <!-- JS ShareThis-->
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
+        
+        <!-- DublinCore -->
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+        <META name="DC.Title" content="Marvel Comics Catalogue"/>
+        <META name="DC.Creator" content="Gabriele Napoletano"/>
+        <META name="DC.Description" content="Un catalogo contenente i principali fumetti Marvel"/>
+        <META name="DC.Publisher" content="Github Pages"/>
+        <META name="DC.Type" content="Catalogo web"/>
+        <META name="DC.Format" content="Sito web"/>
+        <META name="DC.Language" content="It"/>
+
+        <!-- Sezione Title -->
+        <title> Marvel Comics </title>
+
+    </head>
+    <body>
+
+        <!-- Testata del sito-->
+        <header>
+           <!-- Sezione Immagine in Alto-->
+          <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0 bg-black">
+                    <img src="images/images.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
+                </div>
+            </div>  
+          </section>
+        </header>
+        <main>
+               <!-- Navigazione Principale -->
+               <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Marvel</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                      </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Creatori
+                          </a>
+                          <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Fumettisti</a></li>
+                            <li><a class="dropdown-item" href="#">Produttori</a></li>
+                            <li><a class="dropdown-item" href="#">Registi</a></li>
+                          </ul>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="luoghi.html">Luoghi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Accedi</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!-- Sezione Descrizione Progetto-->
+            <section class="container-fluid">
+              <div class="row">
+                <div class="title-progetto col-12 text-center align-items-center d-flex flex-column justify-content-center" style="height: 500px;">
+                    <h1 class="text-center">Il Progetto</h1>
+                    <p class="text-center col-md-5">
+                    Questo sito è un catalogo di personaggi, luoghi e fumetti della case editrice più famosa al mondo: <strong>Marvel Comics</strong>.
+                    Esplora il mondo dei supereroi e dei cattivi, scopri le storie che hanno catturato l'immaginazione di milioni di persone in tutto il mondo.
+                    </p>
+                    <a class="btn btn-dark" href="catalogo.html" role="button">Vai al catalogo</a>
+                </div>
+                <div class="col-md-4"></div>
+              </div>
+            </section>
+            <!-- Sezione Descrizione Marvel-->
+            <section class="container-fluid">
+              <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-4">
+                  <img src="images/Marvel_Logo.svg" class="img-fluid mx-auto d-block pe-5" alt="Immagine logo marvel">
+                </div>
+                <div class="col-md-4">
+                  <div class="padding-descrizione">
+                    <h2><strong>Marvel Comics</strong></h2>
+                    <p>
+                        La <strong>Marvel Comics</strong> è una casa editrice statunitense di proprietà della <strong>Marvel Entertainment</strong>, sussidiaria della <strong>Walt Disney Company</strong>.
+                        Fondata nel 1939 da Martin Goodman con il nome di <strong>Timely Publications</strong> e successivamente conosciuta come <strong>Atlas Comics</strong>.
+                    </p>
+                    <p>
+                        <strong>Spider-Man</strong>, <strong>Iron Man</strong>, <strong>Thor</strong>, <strong>Hulk</strong>, <strong>Black Widow</strong>, e molti altri. Questi personaggi fanno parte di un universo narrativo interconnesso che ha catturato l'immaginazione di milioni di fan in tutto il mondo.
+                    </p>
+                    <div>
+                    <blockquote class="blockquote"></blockquote>
+                        <p>"Da un grande potere derivano grandi responsabilità."</p>
+                        <footer class="blockquote-footer">Ben Parker, <cite title="Source Title">Spider-Man</cite></footer>
+                    </blockquote>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!-- Sezione Carosello Personaggi-->
+            <section class="container-fluid my-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="txt-center">Alcuni dei principali personaggi</h1>
+                  <div id="carouselExampleCaptions" class="carousel slide border border-5 w-50 mx-auto d-md-block">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/Marvel/iron_man.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-dark">
+                          <h5>Iron Man</h5>
+                          <p> 
+                            Tony Stark, miliardario e genio dell'ingegneria
+                          </p>
+                          <a class="btn btn-light" href="#" role="button">Vai alla scheda</a>
+                          <a class="btn btn-light" href="#" role="button">Vai al catalogo filtrato</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/Marvel/cap_america_.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-dark">
+                          <h5>Captain America</h5>
+                          <p> 
+                            Steve Rogers, il super soldato della seconda guerra mondiale
+                          </p>
+                          <a class="btn btn-light" href="#" role="button">Vai alla scheda</a>
+                          <a class="btn btn-light" href="#" role="button">Vai al catalogo filtrato</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/Marvel/thor.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-dark">
+                          <h5>Thor</h5>
+                          <p>
+                            Dio del tuono e principe di Asgard
+                          </p>
+                          <a class="btn btn-light" href="#" role="button">Vai alla scheda</a>
+                          <a class="btn btn-light" href="#" role="button">Vai al catalogo filtrato</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/Marvel/loki.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-dark">
+                          <h5>Loki</h5>
+                          <p>
+                            Dio dell'inganno e fratello di Thor
+                          </p>
+                          <a class="btn btn-light" href="#" role="button">Vai alla scheda</a>
+                          <a class="btn btn-light" href="#" role="button">Vai al catalogo filtrato</a>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Precedente</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Successivo</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            <!-- Sezione Linea del Tempo-->
+            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2:2PACX-1vSDU9KpZdPXOkWi96-6zIchjU_IQloMgCpRni4WNzn_HkIQD65RoyQdtIbvRE6w8IuKgxjZP6H5Q8pE&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
+
+            </iframe>
+
+  
+            
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Sezione Social -->
+                    <div class="col-md-4 text-center">
+                        <h5>Seguici sui social</h5>
+                        <div class="sharethis-inline-follow-buttons"></div>
+                    </div>
+        
+                    <!-- Sezione Link -->
+                    <div class="col-md-4 text-center">
+                        <h5>Link utili</h5>
+                        <ul class="list-unstyled">
+                            <li class="my-2"><a href="webprojectplan.html" target="_blank" class="footer-link">Web Project Plan</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Sezione Testo -->
+                    <div class="col-md-4 text-center">
+                        <h5>Chi siamo</h5>
+                        <p class="small">Siamo appassionati di fumetti, cinema e cultura pop. Esplora il mondo dei supereroi con noi!</p>
+                    </div>
+                </div>
+        
+                <hr class="my-4 border-light">
+        
+                <div class="text-center">
+                    <p class="mb-0 small">© 2025 Superhero Universe. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
