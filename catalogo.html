@@ -5,380 +5,638 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Font Roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS Custom -->
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Bootstrap e KnightLab Timeline CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 
     <!-- Bootstrap e KnightLab Timeline JS -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
     <!-- JS ShareThis-->
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
-    
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop"
+      async="async"
+    ></script>
+
     <!-- DublinCore -->
-    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
-    <META name="DC.Title" content="Marvel Comics Catalogue"/>
-    <META name="DC.Creator" content="Gabriele Napoletano"/>
-    <META name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
-    <META name="DC.Publisher" content="Github Pages"/>
-    <META name="DC.Type" content="Catalogo web"/>
-    <META name="DC.Format" content="Sito web"/>
-    <META name="DC.Language" content="It"/>
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+    <meta name="DC.Title" content="Marvel Comics Catalogue" />
+    <meta name="DC.Creator" content="Gabriele Napoletano" />
+    <meta
+      name="DC.Description"
+      content="Un catalogo contenente i principali personaggi Marvel"
+    />
+    <meta name="DC.Publisher" content="Github Pages" />
+    <meta name="DC.Type" content="Catalogo web" />
+    <meta name="DC.Format" content="Sito web" />
+    <meta name="DC.Language" content="It" />
 
     <!-- Sezione Title -->
-    <title> Marvel Comics </title>
-
-</head>
-    <body>
-        <!-- Testata del sito-->
-        <header>
-            <!-- Sezione Immagine in Alto-->
-            <section class="container-fluid">
-              <div class="row">
-                <div class="col-12 px-0 bg-black">
-                    <img src="images/images.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
-                </div>
-              </div>  
-            </section>
-        </header>
-        <main>
-            
-        <!-- Navigazione Principale -->
-        <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#"> Supereroi Marvel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="catalogo.html">Catalogo</a>
-                </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Creatori
-                    </a>
-                    <ul class="dropdown-menu ">
-                        <li><a class="dropdown-item" href="#">Fumettisti</a></li>
-                        <li><a class="dropdown-item" href="#">Registi</a></li>
-                    </ul>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Luoghi</a>
-                </li>
+    <title>Marvel Comics</title>
+  </head>
+  <body>
+    <!-- Testata del sito-->
+    <header>
+      <!-- Sezione Immagine in Alto-->
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col-12 px-0 bg-black">
+            <img
+              src="images/images.jpg"
+              class="img-fluid mx-auto d-block"
+              alt="Immagine copertina"
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- Navigazione Principale -->
+      <nav
+        class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Marvel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="catalogo.html">Catalogo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Creatori
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Disegnatori</a></li>
+                  <li><a class="dropdown-item" href="#">Sceneggiatori</a></li>
                 </ul>
-            </div>
-            </div>
-        </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="luoghi.html">Luoghi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-            <!-- Breadcrumbs -->
-            <section class="container-fluid my-3">
-              <div class="row">
-                <div class="col-md-3">
-                  <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Catalogo</li>
-                    </ol>
-                  </nav>
+      <!-- Breadcrumbs -->
+      <section class="container-fluid my-3">
+        <div class="row">
+          <div class="col-md-3">
 
             <!-- Filtri -->
-                  <div class="accordion" id="accordionGenerale">
+            <div class="container-fluid my-5">
+              <form class="d-flex rounded" role="search">
+                <input
+                  class="form-control mr-2"
+                  type="search"
+                  placeholder="Cerca"
+                  aria-label="Search"
+                />
+                <button class="btn bg-dark text-light mx-2" type="submit">
+                  Cerca
+                </button>
+              </form>
+            </div>
+
+            <div class="accordion" id="accordionGenerale">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseZero"
+                    aria-controls="collapseZero"
+                  >
+                    <strong>Filtri</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseZero"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionGenerale"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="accordion accordion-flush"
+                      id="accordionFlushFiltri"
+                    >
                       <div class="accordion-item">
                         <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-controls="collapseZero">
-                            <strong>Filtri</strong>
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne"
+                          >
+                            Ordine alfabetico:
                           </button>
                         </h2>
-                        <div id="collapseZero" class="accordion-collapse collapse" data-bs-parent="#accordionGenerale">
+                        <div
+                          id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushFiltri"
+                        >
                           <div class="accordion-body">
-                            <div class="accordion accordion-flush" id="accordionFlushFiltri">
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Ordine alfabetico:
-                                  </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushFiltri">
-                                  <div class="accordion-body">
-                                    <div>
-                                      <button type="button" class="btn btn-dark my-2">A-Z</button>
-                                      <button type="button" class="btn btn-dark">Z-A</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    Per uscita:
-                                  </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushFiltri">
-                                  <div class="accordion-body">
-                                    <p>Filtra i numeri in base all'anno</p>
-                                    <label for="AnnoPre">Dal: </label>
-                                      <input type="number" id="AnnoPre" name="numeri" min="0" max="150" />
-                                      <label class="pl-2" for="AnnoPost">Al: </label>
-                                      <input class="pl-2" type="number" id="AnnoPost" name="numeri" min="0" max="150" />
-                                      <button type="button" class="btn btn-dark">Cerca</button>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Fumettisti
-                                  </button>
-                                </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushFiltri">
-                                  <div class="accordion-body scrollbar">
-                                    <ul class="list-group">
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="firstCheckboxStretchedComp">Stan Lee</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretchedComp">
-                                      </li>
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="secondCheckboxStretchedComp">Jack Kirby</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretchedComp">
-                                      </li>
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="thirdCheckboxStretchedComp">Steve Ditko</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretchedComp">
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                    Registi
-                                  </button>
-                                </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushFiltri">
-                                  <div class="accordion-body scrollbar">
-                                    <ul class="list-group">
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="firstCheckboxStretchedScen">Anthony e Joe Russo</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretchedScen">
-                                      </li>
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="secondCheckboxStretchedScen">Sam Raimi</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretchedScen">
-                                      </li>
-                                      <li class="list-group-item">
-                                        <label class="form-check-label stretched-link" for="thirdCheckboxStretchedScen">Taika Waititi</label>
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretchedScen">
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
+                            <div>
+                              <button type="button" class="btn btn-dark my-2">
+                                A-Z
+                              </button>
+                              <button type="button" class="btn btn-dark">
+                                Z-A
+                              </button>
                             </div>
                           </div>
                         </div>
-                    </div>
-                  </div>
-                      <div class="container-fluid mt-5">
-                        <form class="d-flex rounded" role="search">
-                          <input class="form-control mr-2" type="search" placeholder="Cerca" aria-label="Search">
-                          <button class="btn bg-dark text-light" type="submit">Cerca</button>
-                        </form>
                       </div>
-                </div>
-
-
-              <!-- Sezione card con i vari fumetti  -->
-               <div class="col-md-9 my-3">
-              <!-- Riga 1-->
-                <div class="row">
-                    <div class="col-md-4 flex-fill">
-                    <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                      <a href="items/item-1.html"><img src="images/Marvel/iron_man.jpg" class="card-img-top" alt=""></a>
-                      <div class="card-body d-flex flex-column flex-fill">
-                      <h5><strong>Iron Man</strong></h5>
-                      <p><strong>Superpotere</strong> : Armatura tecnologica</p>
-                      <p><strong>Anno</strong> : 1963</p>
-                      <a href="ironman.html" class="btn btn-dark">Scopri il personaggio</a>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="col-md-4 flex-fill">
-                    <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                      <a href="#"><img src="images/Marvel/cap_america_.jpg" class="card-img-top" alt=""></a>
-                      <div class="card-body d-flex flex-column flex-fill">
-                      <h5><strong>Capitan America</strong></h5>
-                      <p><strong>Superpotere</strong> : Scudo indistruttibile</p>
-                      <p><strong>Anno</strong> : 1941</p>
-                      <a href="#" class="btn btn-dark">Scopri il personaggio</a>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="col-md-4 flex-fill">
-                    <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                      <a href="#"><img src="images/Marvel/black_widow.jpg" class="card-img-top" alt=""></a>
-                      <div class="card-body d-flex flex-column flex-fill">
-                      <h5><strong>Black Widow</strong></h5>
-                      <p><strong>Superpotere</strong> : Abilità di spionaggio</p>
-                      <p><strong>Anno</strong> : 1964</p>
-                      <a href="#" class="btn btn-dark">Scopri il personaggio</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-                <!-- Riga 2-->
-                <div class="row">
-                    <div class="col-md-4 flex-fill">
-                      <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                        <a href="#"><img src="images/Marvel/hulk.jpg" class="card-img-top" alt=""></a>
-                        <div class="card-body d-flex flex-column flex-fill">
-                        <h5><strong>Hulk</strong></h5>
-                        <p><strong>Superpotere</strong> : Forza sovrumana</p>
-                        <p><strong>Anno</strong>: 1962</p>
-                        <a href="#" class="btn btn-dark">Scopri il personaggio</a>
-                        </div>
-                      </div>
-                      </div>
-                        <div class="col-md-4 flex-fill">
-                        <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                          <a href="#"><img src="images/Marvel/thor.jpg" class="card-img-top" alt=""></a>
-                          <div class="card-body d-flex flex-column flex-fill">
-                          <h5><strong>Thor</strong></h5>
-                          <p><strong>Superpotere</strong> : Dio del tuono</p>
-                          <p><strong>Anno</strong>: 1962</p>
-                          <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree"
+                          >
+                            Per uscita:
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushFiltri"
+                        >
+                          <div class="accordion-body">
+                            <p>Filtra i numeri in base all'anno</p>
+                            <label for="AnnoPre">Dal: </label>
+                            <input
+                              type="number"
+                              id="AnnoPre"
+                              name="numeri"
+                              min="0"
+                              max="150"
+                            />
+                            <label class="pl-2" for="AnnoPost">Al: </label>
+                            <input
+                              class="pl-2"
+                              type="number"
+                              id="AnnoPost"
+                              name="numeri"
+                              min="0"
+                              max="150"
+                            />
+                            <button type="button" class="btn btn-dark my-2">
+                              Cerca
+                            </button>
                           </div>
                         </div>
-                        </div>
-                        <div class="col-md-4 flex-fill">
-                        <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                          <a href="#"><img src="images/Marvel/hawkeye.jpg" class="card-img-top" alt=""></a>
-                          <div class="card-body d-flex flex-column flex-fill">
-                          <h5><strong>Hawkeye</strong></h5>
-                          <p><strong>Superpotere</strong> : Abilità con l'arco</p>
-                          <p><strong>Anno</strong>: 1964</p>
-                          <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFour"
+                          >
+                            Disegnatori
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushFiltri"
+                        >
+                          <div class="accordion-body scrollbar">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <label
+                                  class="form-check-label stretched-link"
+                                  for="firstCheckboxStretchedComp"
+                                  >Stan Lee</label
+                                >
+                                <input
+                                  class="form-check-input me-1"
+                                  type="checkbox"
+                                  value=""
+                                  id="firstCheckboxStretchedComp"
+                                />
+                              </li>
+                              <li class="list-group-item">
+                                <label
+                                  class="form-check-label stretched-link"
+                                  for="secondCheckboxStretchedComp"
+                                  >Jack Kirby</label
+                                >
+                                <input
+                                  class="form-check-input me-1"
+                                  type="checkbox"
+                                  value=""
+                                  id="secondCheckboxStretchedComp"
+                                />
+                              </li>
+                              <li class="list-group-item">
+                                <label
+                                  class="form-check-label stretched-link"
+                                  for="thirdCheckboxStretchedComp"
+                                  >Steve Ditko</label
+                                >
+                                <input
+                                  class="form-check-input me-1"
+                                  type="checkbox"
+                                  value=""
+                                  id="thirdCheckboxStretchedComp"
+                                />
+                              </li>
+                            </ul>
                           </div>
                         </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseSix"
+                          >
+                            Sceneggiatori
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseSix"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushFiltri"
+                        >
+                          <div class="accordion-body scrollbar">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <label
+                                  class="form-check-label stretched-link"
+                                  for="firstCheckboxStretchedScen"
+                                  > Larry Lieber</label
+                                >
+                                <input
+                                  class="form-check-input me-1"
+                                  type="checkbox"
+                                  value=""
+                                  id="firstCheckboxStretchedScen"
+                                />
+                              </li>
+                              <li class="list-group-item">
+                                <label
+                                  class="form-check-label stretched-link"
+                                  for="secondCheckboxStretchedScen"
+                                  >Chris Claremont</label
+                                >
+                                <input
+                                  class="form-check-input me-1"
+                                  type="checkbox"
+                                  value=""
+                                  id="secondCheckboxStretchedScen"
+                                />
+                              </li>
+                              <li class="list-group-item">
+                                <label
+                                  class="form-check-label stretched-link"
+                                  for="thirdCheckboxStretchedScen"
+                                  >Brian Michael Bendis</label
+                                >
+                                <input
+                                  class="form-check-input me-1"
+                                  type="checkbox"
+                                  value=""
+                                  id="thirdCheckboxStretchedScen"
+                                />
+                              </li>
+                            </ul>
+                          </div>
                         </div>
-                </div>
-                <!-- Riga 3-->
-                <div class="row">
-                  <div class="col-md-4 flex-fill">
-                    <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                      <a href="#"><img src="images/Marvel/black_panther.jpg" class="card-img-top" alt="Black Panther"></a>
-                      <div class="card-body d-flex flex-column flex-fill">
-                        <h5><strong>Black Panther</strong></h5>
-                        <p><strong>Superpotere</strong>: Forza e agilità sovrumana</p>
-                        <p><strong>Anno</strong>: 1966</p>
-                        <a href="#" class="btn btn-dark">Scopri il personaggio</a>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 flex-fill">
-                    <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                      <a href="#"><img src="images/Marvel/loki.jpg" class="card-img-top" alt="Loki"></a>
-                      <div class="card-body d-flex flex-column flex-fill">
-                        <h5><strong>Loki</strong></h5>
-                        <p><strong>Superpotere</strong>: Magia, illusione e manipolazione</p>
-                        <p><strong>Anno</strong>: 1962</p>
-                        <a href="#" class="btn btn-dark">Scopri il personaggio</a>
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 flex-fill">
-                    <div class="card mx-auto d-block my-3 text-center" style="width: 18rem;">
-                      <a href="#"><img src="images/Marvel/thanos.jpg" class="card-img-top" alt="Thanos"></a>
-                      <div class="card-body d-flex flex-column flex-fill">
-                        <h5><strong>Thanos</strong></h5>
-                        <p><strong>Superpotere</strong>: Forza e abilità strategica</p>
-                        <p><strong>Anno</strong>: 1973</p>
-                        <a href="#" class="btn btn-dark">Scopri il personaggio</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                
-                </div>
-               <!-- Pagination -->
-               <nav aria-label="Page navigation">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">
-                    <a class="page-link">Precedente</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Successivo</a>
-                  </li>
-                </ul>
-              </nav>
               </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="bg-dark text-light py-4">
-            <div class="container">
-                <div class="row">
-                    <!-- Sezione Social -->
-                    <div class="col-md-4 text-center">
-                        <h5>Seguici sui social</h5>
-                        <div class="sharethis-inline-follow-buttons"></div>
-                    </div>
-        
-                    <!-- Sezione Link -->
-                    <div class="col-md-4 text-center">
-                        <h5>Link utili</h5>
-                        <ul class="list-unstyled">
-                            <li class="my-2"><a href="webprojectplan.html" target="_blank" class="footer-link">Web Project Plan</a></li>
-                        </ul>
-                    </div>
-        
-                    <!-- Sezione Testo -->
-                    <div class="col-md-4 text-center">
-                        <h5>Chi siamo</h5>
-                        <p class="small">Siamo appassionati di fumetti, cinema e cultura pop. Esplora il mondo dei supereroi con noi!</p>
-                    </div>
-                </div>
-        
-                <hr class="my-4 border-light">
-        
-                <div class="text-center">
-                    <p class="mb-0 small">© 2025 Superhero Universe. Tutti i diritti riservati.</p>
-                </div>
             </div>
-        </footer>
-    </body>
+          </div>
+
+          <!-- Sezione card con i vari fumetti  -->
+          <div class="col-md-9 my-3">
+            <!-- Riga 1-->
+            <div class="row">
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="items/item-1.html"
+                    ><img
+                      src="images/Marvel/iron_man.jpg"
+                      class="card-img-top"
+                      alt=""
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Iron Man</strong></h5>
+                    <p><strong>Superpotere</strong> : Armatura tecnologica</p>
+                    <p><strong>Anno</strong> : 1963</p>
+                    <a href="ironman.html" class="btn btn-dark"
+                      >Scopri il personaggio</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/cap_america_.jpg"
+                      class="card-img-top"
+                      alt=""
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Capitan America</strong></h5>
+                    <p><strong>Superpotere</strong> : Scudo indistruttibile</p>
+                    <p><strong>Anno</strong> : 1941</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/black_widow.jpg"
+                      class="card-img-top"
+                      alt=""
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Black Widow</strong></h5>
+                    <p><strong>Superpotere</strong> : Abilità di spionaggio</p>
+                    <p><strong>Anno</strong> : 1964</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Riga 2-->
+            <div class="row">
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/hulk.jpg"
+                      class="card-img-top"
+                      alt=""
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Hulk</strong></h5>
+                    <p><strong>Superpotere</strong> : Forza sovrumana</p>
+                    <p><strong>Anno</strong>: 1962</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/thor.jpg"
+                      class="card-img-top"
+                      alt=""
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Thor</strong></h5>
+                    <p><strong>Superpotere</strong> : Dio del tuono</p>
+                    <p><strong>Anno</strong>: 1962</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/hawkeye.jpg"
+                      class="card-img-top"
+                      alt=""
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Hawkeye</strong></h5>
+                    <p><strong>Superpotere</strong> : Abilità con l'arco</p>
+                    <p><strong>Anno</strong>: 1964</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Riga 3-->
+            <div class="row">
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/black_panther.jpg"
+                      class="card-img-top"
+                      alt="Black Panther"
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Black Panther</strong></h5>
+                    <p>
+                      <strong>Superpotere</strong>: Forza e agilità sovrumana
+                    </p>
+                    <p><strong>Anno</strong>: 1966</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/loki.jpg"
+                      class="card-img-top"
+                      alt="Loki"
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Loki</strong></h5>
+                    <p>
+                      <strong>Superpotere</strong>: Magia, illusione e
+                      manipolazione
+                    </p>
+                    <p><strong>Anno</strong>: 1962</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 flex-fill">
+                <div
+                  class="card mx-auto d-block my-3 text-center"
+                  style="width: 18rem"
+                >
+                  <a href="#"
+                    ><img
+                      src="images/Marvel/thanos.jpg"
+                      class="card-img-top"
+                      alt="Thanos"
+                  /></a>
+                  <div class="card-body d-flex flex-column flex-fill">
+                    <h5><strong>Thanos</strong></h5>
+                    <p>
+                      <strong>Superpotere</strong>: Forza e abilità strategica
+                    </p>
+                    <p><strong>Anno</strong>: 1973</p>
+                    <a href="#" class="btn btn-dark">Scopri il personaggio</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pagination -->
+          <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link">Precedente</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Successivo</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Sezione Social -->
+          <div class="col-md-4 text-center">
+            <h5>Seguici sui social</h5>
+            <div class="sharethis-inline-follow-buttons"></div>
+          </div>
+
+          <!-- Sezione Link -->
+          <div class="col-md-4 text-center">
+            <h5>Link utili</h5>
+            <ul class="list-unstyled">
+              <li class="my-2">
+                <a
+                  href="webprojectplan.html"
+                  target="_blank"
+                  class="footer-link"
+                  >Web Project Plan</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Sezione Testo -->
+          <div class="col-md-4 text-center">
+            <h5>Chi siamo</h5>
+            <p class="small">
+              Siamo appassionati di fumetti, cinema e cultura pop. Esplora il
+              mondo dei supereroi con noi!
+            </p>
+          </div>
+        </div>
+
+        <hr class="my-4 border-light" />
+
+        <div class="text-center">
+          <p class="mb-0 small">
+            © 2025 Superhero Universe. Tutti i diritti riservati.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
-
-
-  
-    
-    
-    
-
-
-
-
-    
-    
-    

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="It">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Bootstrap e KnightLab Timeline CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+    <!-- Bootstrap e KnightLab Timeline JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    
+    <!-- JS ShareThis-->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
+    
+    <!-- DublinCore -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+    <META name="DC.Title" content="Marvel Comics Catalogue"/>
+    <META name="DC.Creator" content="Gabriele Napoletano"/>
+    <META name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
+    <META name="DC.Publisher" content="Github Pages"/>
+    <META name="DC.Type" content="Catalogo web"/>
+    <META name="DC.Format" content="Sito web"/>
+    <META name="DC.Language" content="It"/>
+
+    <!-- Sezione Title -->
+    <title> Marvel Comics </title>
+
+</head>
+<body>
+        <!-- Testata del sito-->
+        <header>
+            <!-- Sezione Immagine in Alto-->
+            <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0 bg-black">
+                    <img src="images/images.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
+                </div>
+            </div>  
+            </section>
+        </header>
+        <main>
+            
+            <!-- Navigazione Principale -->
+            <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Marvel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Creatori
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Disegnatori</a></li>
+                            <li><a class="dropdown-item" href="#">Sceneggiatori</a></li>
+                          </ul>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="luoghi.html">Luoghi</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        
+            <div class="container my-5">
+                <h1 class="text-center">Luoghi Marvel</h1>
+                <p class="text-center">Scopri i luoghi iconici dell'universo Marvel a New York.</p>
+                <img src="images/Marvel_Mapped.jpg" alt="mappaMarvel" class="img-fluid mx-auto d-block my-4">
+                <img src="images/battleworldmap.jpg" alt="mapSecretWars" class="img-fluid mx-auto d-block my-4">
+            </div>
+
+
+                    <!-- Footer -->
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Sezione Social -->
+                    <div class="col-md-4 text-center">
+                        <h5>Seguici sui social</h5>
+                        <div class="sharethis-inline-follow-buttons"></div>
+                    </div>
+        
+                    <!-- Sezione Link -->
+                    <div class="col-md-4 text-center">
+                        <h5>Link utili</h5>
+                        <ul class="list-unstyled">
+                            <li class="my-2"><a href="webprojectplan.html" target="_blank" class="footer-link">Web Project Plan</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Sezione Testo -->
+                    <div class="col-md-4 text-center">
+                        <h5>Chi siamo</h5>
+                        <p class="small">Siamo appassionati di fumetti, cinema e cultura pop. Esplora il mondo dei supereroi con noi!</p>
+                    </div>
+                </div>
+        
+                <hr class="my-4 border-light">
+        
+                <div class="text-center">
+                    <p class="mb-0 small">© 2025 Superhero Universe. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </footer>
+        
+</body>
