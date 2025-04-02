@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Font Roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+       
+        <!-- CSS Custom -->
+        <link rel="stylesheet" href="style.css"/>
+
+        <!-- Bootstrap e KnightLab Timeline CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+        <!-- Bootstrap e KnightLab Timeline JS -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        
+        <!-- JS ShareThis-->
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65a6b5a2fbfe1600199c5c3a&product=sop' async='async'></script>
+        
+        <!-- DublinCore -->
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+        <META name="DC.Title" content="Marvel Comics Catalogue"/>
+        <META name="DC.Creator" content="Gabriele Napoletano"/>
+        <META name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
+        <META name="DC.Publisher" content="Github Pages"/>
+        <META name="DC.Type" content="Catalogo web"/>
+        <META name="DC.Format" content="Sito web"/>
+        <META name="DC.Language" content="It"/>
+
+        <!-- Sezione Title -->
+        <title> Marvel Comics </title>
+
+    </head>
+<body>
+    <!-- Testata del sito-->
+    <header>
+        <!-- Sezione Immagine in Alto-->
+        <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0 bg-black">
+                <img src="images/images.jpg" class="img-fluid mx-auto d-block" alt="Immagine copertina">
+            </div>
+        </div>  
+        </section>
+    </header>
+    <main>
+        
+        <!-- Navigazione Principale -->
+        <nav class="navbar bg-dark sticky-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Marvel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Creatori
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="#">Disegnatori</a></li>
+                        <li><a class="dropdown-item" href="#">Sceneggiatori</a></li>
+                      </ul>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="luoghi.html">Luoghi</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+    <div class="container">
+        <h1 class="my-3">Web Project Plan</h1>
+
+        <div class="indice mb-4">
+            <h2>Indice</h2>
+            <ul>
+                <li><a href="#idea">Idea</a></li>
+                <li><a href="#brief">Brief</a></li>
+                <li><a href="#benchmark">Benchmark</a></li>
+                <li><a href="#struttura">Struttura</a></li>
+                <li><a href="#layout">Layout</a></li>
+                <li><a href="#usabilita">Usabilità</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#bibliografia">Bibliografia</a></li>
+            </ul>
+        </div>
+
+        <h2 id="idea">Idea</h2>
+        <p>Il progetto è rivolto agli appassionati dei personaggi più importanti e ideati dalla Marvel Comics.</p>
+
+        <h2 id="brief">Brief</h2>
+        <h4>1.1 Finalità</h4>
+        <p>Realizzare un catalogo digitale dedicato ai principali personaggi Marvel Comics, con contenuti visivi e testuali approfonditi.</p>
+        <h4>1.2 Pubblico</h4>
+        <p>Fan Marvel, curiosi e nuovi lettori. Accesso libero e semplice, senza autenticazione.</p>
+        <h4>1.3 Accesso</h4>
+        <p>Responsive design con Bootstrap. Ottimizzato per immagini e contenuti leggeri.</p>
+        <h4>1.4 Contenuti e Dati</h4>
+        <p>Immagini da Google. Schede con poteri, esordio, descrizione. HTML5/CSS3 e componenti interattivi.</p>
+
+        <h2 id="benchmark">Benchmark</h2>
+        <h4>2.1 Situazione Attuale</h4>
+        <p>Siti esistenti generalisti. Il nuovo sito punta a profondità e interattività.</p>
+        <h4>2.2 Servizi Riutilizzabili</h4>
+        <p>Interfacce tipo Fandom Marvel, forum e strumenti di community.</p>
+        <h4>2.3 Analisi Concorrenti</h4>
+        <ul>
+            <li><strong>Marvel.com</strong>: grafica buona, contenuti superficiali.</li>
+            <li><strong>Marvel Fandom</strong>: dettagliato ma dispersivo, contenuti non verificati.</li>
+        </ul>
+
+        <h2 id="struttura">Struttura</h2>
+        <h4>3.1 Mappa Concettuale</h4>
+        <img src="images/mappa_concettuale.png" alt="Mappa Concettuale" class="img-fluid my-2">
+        <h4>3.2 Schema Dipendenze</h4>
+        <pre>
+marvel-comics/
+├── index.html
+├── catalogo.html
+├── luoghi.html
+├── personaggi/
+│   └── ironman.html
+├── styles.css
+├── images/
+│   └── Marvel/
+│   └── timeline/
+        </pre>
+        <h4>3.3 Categorie Descrittive</h4>
+        <p><strong>Nome:</strong> Iron Man<br>
+        <strong>Disegnatore:</strong> Stan Lee<br>
+        <strong>Sceneggiatore:</strong> Larry Lieber<br>
+        <strong>Descrizione:</strong> Tony Stark, inventore miliardario...<br>
+        <strong>Tipo:</strong> Supereroe<br>
+        <strong>Affiliazione:</strong> Avengers<br>
+        <strong>Villain Principale:</strong> Mandarino<br>
+        <strong>Editore:</strong> Marvel Comics<br>
+        <strong>Data:</strong> 1963/03/01</p>
+
+        <h2 id="layout">Layout</h2>
+        <div class="wireframes">
+            <img src="images/home.png" alt="Wireframe Home" class="img-fluid my-2">
+            <img src="images/Catalogo.png" alt="Wireframe Catalogo" class="img-fluid my-2">
+            <img src="images/item.png" alt="Wireframe Item" class="img-fluid my-2">
+        </div>
+
+        <h2 id="usabilita">Usabilità</h2>
+        <h4>5.1 Navigazione</h4>
+        <ul>
+            <li>Layout su griglie Bootstrap</li>
+            <li>Card per personaggi</li>
+            <li>Navbar fissa, dropdown e breadcrumb</li>
+            <li>Filtri avanzati con accordion</li>
+        </ul>
+        <h4>5.2 Grafica</h4>
+        <ul>
+            <li>Colori: rosso, nero, bianco</li>
+            <li>Font: Roboto</li>
+            <li>Elementi accessibili e responsive</li>
+        </ul>
+
+        <h2 id="servizi">Servizi</h2>
+        <h4>6.1 Sistemi di Browsing</h4>
+        <ul>
+            <li>Timeline interattiva</li>
+            <li>Mappe relazionali</li>
+            <li>Filtro per notorietà</li>
+        </ul>
+        <h4>6.2 Tools</h4>
+        <ul>
+            <li>Barra di ricerca</li>
+            <li>Accordion</li>
+            <li>Caroselli</li>
+            <li>Dropdown</li>
+            <li>Bottoni interattivi</li>
+        </ul>
+        <h4>6.3 Altri strumenti</h4>
+        <ul>
+            <li>Accessibilità (screen reader, tastiera, ARIA)</li>
+            <li>Esportazione PDF</li>
+            <li>API Marvel e Wikipedia</li>
+            <li>Gamification (badge, quiz)</li>
+            <li>Pannello "Esplora anche..."</li>
+        </ul>
+
+        <h2 id="bibliografia">Bibliografia e Sitografia</h2>
+        <h4>7.1 Fonti</h4>
+        <ul>
+            <li>Wikipedia</li>
+            <li>Marvel.com</li>
+            <li>Google Immagini</li>
+        </ul>
+        <h4>7.2 Strumenti</h4>
+        <ul>
+            <li>HTML5, CSS3, JS</li>
+            <li>Bootstrap 5</li>
+            <li>KnightLab Timeline</li>
+            <li>Balsamiq</li>
+            <li>VS Code</li>
+            <li>GitHub Pages</li>
+        </ul>
+    </div>
+</body>
+</html>
