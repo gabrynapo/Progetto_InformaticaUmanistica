@@ -22,13 +22,13 @@
         
         <!-- DublinCore -->
         <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
-        <META name="DC.Title" content="Marvel Comics Catalogue"/>
-        <META name="DC.Creator" content="Gabriele Napoletano"/>
-        <META name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
-        <META name="DC.Publisher" content="Github Pages"/>
-        <META name="DC.Type" content="Catalogo web"/>
-        <META name="DC.Format" content="Sito web"/>
-        <META name="DC.Language" content="It"/>
+        <meta name="DC.Title" content="Marvel Comics Catalogue"/>
+        <meta name="DC.Creator" content="Gabriele Napoletano"/>
+        <meta name="DC.Description" content="Un catalogo contenente i principali personaggi Marvel"/>
+        <meta name="DC.Publisher" content="Github Pages"/>
+        <meta name="DC.Type" content="Catalogo web"/>
+        <meta name="DC.Format" content="Sito web"/>
+        <meta name="DC.Language" content="It"/>
 
         <!-- Sezione Title -->
         <title> Marvel Comics </title>
@@ -104,31 +104,31 @@
                       <h2 class="mt-3">
                           <u>Descrizione del personaggio</u>
                       </h2>
-                      <div class="metadati">
+                      <div class="metadati" vocab="http://purl.org/dc/elements/1.1/" typeof="Personaggio">
                           <ul class="pl-0 metadati-item">
                               <li>
-                                  <p class="mb-2"><strong>Nome : <span class="DC.Title">Iron Man</span></strong></p>
+                                  <p class="mb-2"><strong>Nome : <span property="dc:name">Iron Man</span></strong></p>
                               </li>
                               <li>
-                                  <p class="mb-2"><strong>Disegnatore : <a href="#" title="vai alla scheda"><creator xml:id="Fumettista">Stan Lee</creator></a></strong></p>
+                                  <p class="mb-2"><strong>Disegnatore : <a href="#" title="Vai alla scheda" property="dc:creator">Stan Lee</a></strong></p>
                               </li>
                               <li>
-                                  <p class="mb-2"><strong>Sceneggiatore : <a href="#" title="vai alla scheda"><creator xml:id="Regista">Larry Lieber</creator></a></strong></p>
+                                  <p class="mb-2"><strong>Sceneggiatore : <a href="#" title="Vai alla scheda" property="dc:screenwriter">Larry Lieber</a></strong></p>
                               </li>
                               <li>
-                                <p class="mb-2"><strong>Tipo di personaggio : <span class="DC.Type">Supereroe</span></strong></p>
+                                <p class="mb-2"><strong>Tipo di personaggio : <span property="dc:type">Supereroe</span></strong></p>
                             </li>
                               <li>
-                                <p class="mb-2"><strong>Affiliazione : <span class="DC.Affiliation">Avengers</span></strong></p>
+                                <p class="mb-2"><strong>Affiliazione : <span property="dc:affiliation">Avengers</span></strong></p>
                             </li>
                               <li>
-                                  <p class="mb-2"><strong>Villain principale : <a href="#" title="vai alla scheda"><subject xml:id="Villain">Mandarino</subject></a></strong></p>
+                                  <p class="mb-2"><strong>Villain principale : <a href="#" title="Vai alla scheda" property="dc:villain">Mandarino</a></strong></p>
                               </li>
                               <li>
-                                  <p class="mb-2"><strong>Numero di apparizioni : <subject xml:id="NumeroApparizioni"> +1000</subject></strong></p>
+                                  <p class="mb-2"><strong>Numero di apparizioni : <span property="dc:apparitions">+1000</span></strong></p>
                               </li>
                               <li>
-                                  <p class="mb-2"><strong>Prima apparizione : <span class="DC.Date">Tales of Suspense #39 (Marzo 1963)</span></strong></p>
+                                  <p class="mb-2"><strong>Prima apparizione : <span property="dc:date">Tales of Suspense #39 (Marzo 1963)</span></strong></p>
                               </li>
                           </ul>
                       </div>
