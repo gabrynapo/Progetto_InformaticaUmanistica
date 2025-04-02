@@ -1,7 +1,3 @@
-body {
-    font-family: 'Comics Sans MS';
-}
-
 .logo-resize {
     height: 8%;
     width: 8%;
@@ -13,6 +9,7 @@ body {
     height: 100%;
 }
 
+/*Sfondo progetto*/
 .title-progetto {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/sfondo_progetto.jpg') center/cover no-repeat;
     height: 400px;
@@ -46,15 +43,13 @@ a:hover{
     text-decoration: none;
 }
 
+/*Metadati di un personaggio*/
 .metadati-item {
     list-style: none;
     padding-left: 0px;
 }
 
-.hide {
-    display: none;
-}
-
+/*Gestione dimensione delle card*/
 .card {
     height: 100%;
     display: flex;
