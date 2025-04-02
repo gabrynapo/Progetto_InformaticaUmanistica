@@ -107,23 +107,40 @@
 
         <h2 id="brief">Brief</h2>
         <h4>1.1 Finalità</h4>
-        <p>Realizzare un catalogo digitale dedicato ai principali personaggi Marvel Comics, con contenuti visivi e testuali approfonditi.</p>
+        <p>Il progetto si propone di realizzare un catalogo digitale dedicato ai principali personaggi Marvel Comics, includendo eroi, villain e figure iconiche che hanno segnato la storia del fumetto americano. L’obiettivo è offrire una risorsa accessibile, ordinata e ricca di contenuti testuali e visivi per approfondire l’universo Marvel e la sua evoluzione nel tempo.
+        </p>
         <h4>1.2 Pubblico</h4>
-        <p>Fan Marvel, curiosi e nuovi lettori. Accesso libero e semplice, senza autenticazione.</p>
+        <p>Il sito è pensato principalmente per gli appassionati di fumetti, in particolare i fan dell’universo Marvel. Tuttavia, anche i curiosi o nuovi lettori possono esplorare i contenuti in maniera semplice e coinvolgente. Accesso libero e semplice, senza autenticazione.</p>
         <h4>1.3 Accesso</h4>
-        <p>Responsive design con Bootstrap. Ottimizzato per immagini e contenuti leggeri.</p>
+        <p>La piattaforma è stata progettata per essere responsive e fruibile da qualsiasi dispositivo: desktop, tablet e smartphone. Grazie all’utilizzo del framework Bootstrap e a uno stile visivo semplice e funzionale, il sito garantisce una navigazione fluida e accessibile a tutti. Ottimizzato per immagini e contenuti leggeri.</p>
         <h4>1.4 Contenuti e Dati</h4>
-        <p>Immagini da Google. Schede con poteri, esordio, descrizione. HTML5/CSS3 e componenti interattivi.</p>
+        <p>Immagini da Google. Schede con superpoteri, esordio, descrizione. HTML5/CSS3 e componenti interattivi. Una particolare attenzione è stata riservata alla classificazione dei personaggi (tramite creatori, anno, poteri) per offrire un'esperienza di consultazione ordinata e personalizzabile.</p>
 
         <h2 id="benchmark">Benchmark</h2>
         <h4>2.1 Situazione Attuale</h4>
-        <p>Siti esistenti generalisti. Il nuovo sito punta a profondità e interattività.</p>
+        <p>Attualmente esistono diversi siti dedicati ai personaggi della Marvel Comics. Tuttavia, spesso sono generalisti, coprendo notizie, fumetti, film e merchandising in modo ampio, senza concentrarsi in maniera approfondita sui dettagli, storie o approfondimenti specifici dei singoli personaggi. Il nuovo sito punta a profondità e interattività.
+            Altra funzionalità molto importante è quella di interazione sociale e forum, come quelle usate da Reddit o dai forum di Fandom, può essere integrata per creare un forte senso di comunità tra gli utenti.
+        </p>
         <h4>2.2 Servizi Riutilizzabili</h4>
-        <p>Interfacce tipo Fandom Marvel, forum e strumenti di community.</p>
+        <p>Diversi progetti online offrono architetture modulari, interfacce intuitive e strumenti che possono essere riutilizzati.
+            Per esempio, Fandom Marvel usa interfacce ideali per esplorazioni approfondite, che potrebbero essere adattate per migliorare l'esperienza utente in un progetto dedicato ai personaggi.</p>
         <h4>2.3 Analisi Concorrenti</h4>
         <ul>
-            <li><strong>Marvel.com</strong>: grafica buona, contenuti superficiali.</li>
-            <li><strong>Marvel Fandom</strong>: dettagliato ma dispersivo, contenuti non verificati.</li>
+            <li><strong>Marvel.com</strong><br> Sito ufficiale con sezioni dedicate a fumetti, personaggi, film e merchandising.
+                Include schede riassuntive per ogni personaggio, con dettagli base.
+                Grafica professionale e navigazione semplice ma superficiale in termini di approfondimento narrativo. <br>
+                Mancanza di traduzione in lingua italiana.
+                Scarso coinvolgimento interattivo per l’utente medio che desidera una visione generale del personaggio e piccole curiosità.
+                Caricamento lento delle immagini e dei contenuti multimediali.
+                </li>
+            <li><strong>Marvel Fandom (marvel.fandom.com)</strong> <br>
+                Wiki amatoriale molto dettagliata su personaggi, storie e universi paralleli.
+                Comunità molto attiva e contenuti costantemente aggiornati dagli utenti.
+                Interfaccia ricca di informazioni, ma a volte dispersiva per l’utente inesperto. <br>
+                Sovrabbondanza di informazioni non sempre organizzate in modo intuitivo.
+                Qualità e affidabilità dei contenuti variabile perché generati dagli utenti senza supervisione professionale.
+                Navigabilità del sito poco chiara
+                </li>
         </ul>
 
         <h2 id="struttura">Struttura</h2>
@@ -163,20 +180,32 @@ marvel-comics/
         <h2 id="usabilita">Usabilità</h2>
         <h4>5.1 Navigazione</h4>
         <ul>
-            <li>Layout su griglie Bootstrap</li>
-            <li>Card per personaggi</li>
-            <li>Navbar fissa, dropdown e breadcrumb</li>
-            <li>Filtri avanzati con accordion</li>
+            <li>Il layout si basa su griglie responsive fornite da Bootstrap, garantendo una buona adattabilità su dispositivi mobili e desktop.</li>
+            <li>Ogni personaggio è racchiuso in una card, rendendo il contenuto visivamente ordinato e facilmente navigabile. </li>
+            <li>È adottata una barra di navigazione fissa (sticky-top) che assicura l’accesso rapido alle sezioni principali del sito.</li>
+            <li>Sono presenti breadcrumb per facilitare l’orientamento dell’utente e fornire contesto.</li>
+            <li>La pagina "Catalogo" integra filtri avanzati a sinistra, tramite un sistema ad accordion, migliorando l’esplorazione dei contenuti.</li>
         </ul>
-        <h4>5.2 Grafica</h4>
+        <h4>5.2 Stile e leggibilità</h4>
         <ul>
-            <li>Colori: rosso, nero, bianco</li>
             <li>Font: Roboto</li>
-            <li>Elementi accessibili e responsive</li>
+            <li>I form di ricerca e filtri sono semplici, con etichette chiare e spazi adeguati per evitare clic errati.</li>
+            <li>I bottoni sono ben visibili, con contrasto elevato (es. bianco su sfondo scuro).</li>
+            <li>I pulsanti della paginazione includono lo stato attivo e disabilitato (.disabled) per indicare chiaramente le opzioni disponibili.</li>
+        </ul>
+
+        <h4>5.3 Colori, icone e font</h4>
+        <ul>
+            <li>La palette di colori è coerente con l’identità Marvel: rosso, nero e bianco predominano.</li>
+            <li>Lo sfondo scuro delle sezioni (navbar, footer, caroselli) aumenta la leggibilità e dà enfasi ai contenuti.</li>
+            <li>Le icone Bootstrap (hamburger menu, caroselli) sono usate in modo chiaro e coerente</li>
+            <li>Le immagini dei personaggi sono ad alta risoluzione e accompagnate da alt text descrittivi, migliorando accessibilità e SEO.</li>
+            <li>Il font Roboto viene caricato da Google Fonts in modo asincrono (display=swap), ottimizzando le performance.</li>
+            <li>È stato evitato l’uso di font multipli o pesanti, mantenendo la leggerezza del sito.</li>
         </ul>
 
         <h2 id="servizi">Servizi</h2>
-        <h4>6.1 Sistemi di Browsing</h4>
+        <h4>6.1 Sistemi di Browsing aggiuntivi</h4>
         <ul>
             <li>Timeline interattiva</li>
             <li>Mappe relazionali</li>
@@ -185,36 +214,69 @@ marvel-comics/
         <h4>6.2 Tools</h4>
         <ul>
             <li>Barra di ricerca</li>
-            <li>Accordion</li>
-            <li>Caroselli</li>
-            <li>Dropdown</li>
-            <li>Bottoni interattivi</li>
+            <li>Accordion per i filtri</li>
+            <li>Caroselli dei personaggi</li>
+            <li>Dropdown menu nella navbar</li>
+            <li>Bottoni interattivi nelle card</li>
         </ul>
         <h4>6.3 Altri strumenti</h4>
         <ul>
             <li>Accessibilità (screen reader, tastiera, ARIA)</li>
-            <li>Esportazione PDF</li>
-            <li>API Marvel e Wikipedia</li>
-            <li>Gamification (badge, quiz)</li>
+            <li>Esportazione PDF delle schede dei personaggi</li>
+            <li>Integrazioni con API esterne</li>
+            <li>Quiz giornalieri/settimanali per mantenere attiva la community</li>
             <li>Pannello "Esplora anche..."</li>
         </ul>
 
         <h2 id="bibliografia">Bibliografia e Sitografia</h2>
         <h4>7.1 Fonti</h4>
         <ul>
-            <li>Wikipedia</li>
-            <li>Marvel.com</li>
-            <li>Google Immagini</li>
+            <li>Wikipedia - Biografie e informazioni storiche sui personaggi Marvel.</li>
+            <li>Marvel.com – Descrizioni ufficiali e dati editoriali dei fumetti.</li>
+            <li>Google Immagini - Immagini dei personaggi</li>
         </ul>
         <h4>7.2 Strumenti</h4>
         <ul>
-            <li>HTML5, CSS3, JS</li>
-            <li>Bootstrap 5</li>
-            <li>KnightLab Timeline</li>
-            <li>Balsamiq</li>
-            <li>VS Code</li>
-            <li>GitHub Pages</li>
+            <li><strong>Linguaggi</strong> : HTML5, CSS3</li>
+            <li> <strong>Framework CSS</strong> : Bootstrap 5</li>
+            <li> <strong>Libreria per timeline</strong> : KnightLab Timeline</li>
+            <li> <strong>Wifreframes designer</strong> : Balsamiq</li>
+            <li><strong>Editor</strong> : Visual Studio Code</li>
+            <li> <strong>Hosting</strong> : GitHub Pages</li>
         </ul>
     </div>
+
+                <!-- Footer -->
+                <footer class="bg-dark text-light py-4">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Sezione Social -->
+                            <div class="col-md-4 text-center">
+                                <h5>Seguici sui social</h5>
+                                <div class="sharethis-inline-follow-buttons"></div>
+                            </div>
+                
+                            <!-- Sezione Link -->
+                            <div class="col-md-4 text-center">
+                                <h5>Link utili</h5>
+                                <ul class="list-unstyled">
+                                    <li class="my-2"><a href="webprojectplan.html" target="_blank" class="footer-link">Web Project Plan</a></li>
+                                </ul>
+                            </div>
+                
+                            <!-- Sezione Testo -->
+                            <div class="col-md-4 text-center">
+                                <h5>Chi siamo</h5>
+                                <p class="small">Siamo appassionati di fumetti, cinema e cultura pop. Esplora il mondo dei supereroi con noi!</p>
+                            </div>
+                        </div>
+                
+                        <hr class="my-4 border-light">
+                
+                        <div class="text-center">
+                            <p class="mb-0 small">© 2025 Superhero Universe. Tutti i diritti riservati.</p>
+                        </div>
+                    </div>
+                </footer>
 </body>
 </html>
